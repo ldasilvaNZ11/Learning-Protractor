@@ -13,7 +13,7 @@ describe('TM front-page tests', function() {
 //var tmLogo = element(by.id('SiteHeader_SiteTabs_kevin'));
 var tmLogo = $('#SiteHeader_SiteTabs_kevin');
 
-//VERIFY
+//ASSERT
 expect(tmLogo.isDisplayed()).toBeTruthy();
 
     });
