@@ -28,6 +28,6 @@ The `protractor.conf.js` stores all the configuration needed for running the e2e
 
 The `*.spec.js` files are the test suites. Each spec file has at least one `describe` section (that is the test suite) and one ore more `it` sections, that are the test cases.
 
-The `package.json` file is used for installing the project dependencies and scripts, such as script installation and webdriver update.
+The `package.json` file is used for installing the project dependencies and scripts, such as script for updating the webdriver or for running the tests
 
-The `.gitignore` file is where all ignored files and directories are defined. Ignored files are not stored by the version control system.
+The `.gitignore` file is where all ignored files and directories are defined. Ignored files are not tracked by the version control system.
