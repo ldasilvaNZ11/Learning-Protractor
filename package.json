@@ -1,0 +1,24 @@
+{
+  "name": "learning-protractor",
+  "version": "1.0.0",
+  "description": "project to learn protractor by a mentorship program",
+  "main": "tm-spec.js",
+  "scripts": {
+    "test": "./node_modules/.bin/protractor",
+    "webdriver:update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldasilvaNZ11/Learning-Protractor.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ldasilvaNZ11/Learning-Protractor/issues"
+  },
+  "homepage": "https://github.com/ldasilvaNZ11/Learning-Protractor#readme",
+  "dependencies": {
+    "jasmine-spec-reporter": "^3.2.0",
+    "protractor": "^5.1.0"
+  }
+}
