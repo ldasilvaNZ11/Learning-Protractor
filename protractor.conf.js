@@ -13,11 +13,10 @@ module.exports.config = {
 	onPrepare() {
 		//the command below allows protractor to test non-AngularJS webpages
 		browser.ignoreSynchronization = true;
-
 		jasmine.getEnv().addReporter(new SpecReporter({
-	      	spec: {
-	        	displayStacktrace: true
-	      	}
-	    }));
+			spec: {
+				displayStacktrace: true
+			}
+		}));
 	}
 };
